@@ -1,0 +1,141 @@
+body{
+    position: relative;
+}
+.site{
+    background-color: aquamarine;
+}
+.navbar{
+    padding: 20px;
+}
+.h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:  40px;
+    margin: 2%;
+    text-align: center;
+}
+.img{
+    padding: 1% 15% 3% 15%;
+}
+.content_image{
+    width: 60%;
+    height: 60%;
+    margin-left: 270px;
+}
+.first{
+    background-color: aqua;
+    padding: 20px;
+    margin: 20px 20px 20px 20px;
+}
+.text-content{
+    background-color: aqua;
+    padding: 10px;
+    font-style: italic;
+    margin: 20px;
+}
+#footer{
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    color:antiquewhite;
+    font-size: 10px;
+    margin-top:20px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color:beige
+}
+a:hover{
+    color: yellowgreen
+}
+hr{
+    border-style: dotted none none;
+    width: 20%;
+    border-width: 7px;
+    border-color: burlywood;
+    margin: auto;
+}
+.grid_view_container{
+    padding:20%;
+    background-color: aqua;
+    border: solid 20px;  
+}
+.footer-grid{
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    color:antiquewhite;
+    font-size: 10px;
+    margin-top:20px;
+    margin-top: 0;
+}
+.size_image{
+    width: 400px;
+    padding: 20px;
+}
+.size_image:hover{
+    cursor: pointer;
+    transition: all 0.45s ease;
+    background-color: azure;
+    border-radius: 20px;
+}
+.table_view{
+    border: 20px solid;
+}
+.contact_me{
+    padding: 20px;
+}
+.form_table
+{
+    padding: 20px;
+    border: 7px solid;
+    border-color: bisque;
+    justify-content: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    background-color: aqua;
+    margin-bottom: 20px;
+}
+.label{
+    font-family: monospace;
+    font-size: 30px;
+}
+textarea{
+    resize: none;
+}
+.submit{
+    background-color: beige;
+    border: 5px solid;
+    border-color: chartreuse;
+    text-align: center;
+    color: darkseagreen;
+    margin-top: 2em;
+}  
+.submit:hover{
+    cursor: pointer;
+    transition: all 0.25s ease;
+    color : white;
+    background-color: green;
+    border-color: none;
+    border-radius: 50px;
+}
+.text_box{
+    background-color: aquamarine;
+    border: 2px solid;
+    border-color: chartreuse;
+}
+.text_box:hover{
+    background-color: beige;
+    cursor: text;
+    transition: all 0.5s ease;
+    border-radius: 10px;
+}
+.thanks{
+    display: none;
+    border: 7px solid;
+    border-color: bisque;
+    background-color: aqua;
+    justify-content: center;
+    padding: 5%;
+    margin: 2%  30% 2% 30%;
+}
